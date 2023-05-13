@@ -22,7 +22,7 @@ onMounted(() => {
     <code>
       # Email<br>
       import base64<br>
-      s = 'a2lmdWFuQGZveG1haWwuY' + str(<span ref="math" class="text-2xl"></span><br>)
+      s = 'a2lmdWFuQGZveG1haWwuY' + str(<span ref="math" class="text-2xl"></span>)<br>
       base64.b64decode(s.encode())
     </code>
   </div>
