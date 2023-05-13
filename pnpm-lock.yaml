@@ -12,6 +12,9 @@ devDependencies:
   '@nuxtjs/tailwindcss':
     specifier: ^6.4.1
     version: 6.4.1
+  '@types/katex':
+    specifier: ^0.16.0
+    version: 0.16.0
   eslint:
     specifier: ^8.35.0
     version: 8.35.0
@@ -1721,6 +1724,10 @@ packages:
 
   /@types/json5@0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
+    dev: true
+
+  /@types/katex@0.16.0:
+    resolution: {integrity: sha512-hz+S3nV6Mym5xPbT9fnO8dDhBFQguMYpY0Ipxv06JMi1ORgnEM4M1ymWDUhUNer3ElLmT583opRo4RzxKmh9jw==}
     dev: true
 
   /@types/mdast@3.0.10:
