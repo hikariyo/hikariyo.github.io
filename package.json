@@ -22,5 +22,8 @@
         "vue"
       ]
     }
+  },
+  "dependencies": {
+    "katex": "^0.16.7"
   }
 }
