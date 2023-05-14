@@ -9,6 +9,7 @@ useHead({
 const math = ref<HTMLDivElement>()
 
 onMounted(() => {
+  // 29t, the result of left part is 0.
   katex.render('\\int_{-t}^t(xe^{3x^2}\\cos\\frac{3}{7}\\pi x+\\frac{29}{2})\\mathrm{d}x', math.value!, {
     throwOnError: false,
     output: 'html',
@@ -17,15 +18,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="py-14 px-4 xl:px-20 flex justify-start flex-col text-xl">
-    <code>
-      # Email<br>
-      import base64<br>
-      s = 'a2lmdWFuQGZveG1haWwuY' + str(<span ref="math" class="text-xl" />)<br>
-      base64.b64decode(s.encode())
-    </code>
-  </div>
+  <code class="py-14 px-4 xl:px-20 text-xl">
+    # Email<br>
+    import base64<br>
+    s = 'a2lmdWFuQGZveG1haWwuY' + str(<span ref="math" class="text-xl" />)<br>
+    base64.b64decode(s.encode())
+  </code>
 </template>
-
-<style scoped>
-</style>
