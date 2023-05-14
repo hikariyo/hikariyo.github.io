@@ -6,14 +6,10 @@ useHead({
   title: 'Email',
 })
 
-const math = ref<HTMLDivElement>()
-
-onMounted(() => {
-  // 29t, the result of left part is 0.
-  katex.render('\\int_{-t}^t(xe^{3x^2}\\cos\\frac{3}{7}\\pi x+\\frac{29}{2})\\mathrm{d}x', math.value!, {
-    throwOnError: false,
-    output: 'html',
-  })
+// 29t, the result of left part is 0.
+const math = katex.renderToString('\\int_{-t}^t(xe^{3x^2}\\cos\\frac{3}{7}\\pi x+\\frac{29}{2})\\mathrm{d}x', {
+  throwOnError: false,
+  output: 'html',
 })
 </script>
 
@@ -22,7 +18,7 @@ onMounted(() => {
     <code>
       # Email<br>
       import base64<br>
-      s = 'a2lmdWFuQGZveG1haWwuY' + str(<span ref="math" class="text-xl" />)<br>
+      s = 'a2lmdWFuQGZveG1haWwuY' + str(<span class="text-xl" v-html="math" />)<br>
       base64.b64decode(s.encode())
     </code>
   </div>
