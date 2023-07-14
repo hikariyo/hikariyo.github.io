@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: '摸鱼 @kifuan',
+      title: '生理盐水 @kifuan',
       link: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+SC' },
       ],
