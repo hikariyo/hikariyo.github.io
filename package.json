@@ -9,10 +9,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.36.0",
-    "@nuxtjs/tailwindcss": "^6.4.1",
-    "@types/katex": "^0.16.0",
-    "eslint": "^8.35.0",
-    "nuxt": "^3.2.3",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/katex": "^0.16.3",
+    "eslint": "^8.49.0",
+    "nuxt": "^3.7.3",
     "typescript": "^4.9.5"
   },
   "pnpm": {
@@ -25,6 +25,6 @@
     }
   },
   "dependencies": {
-    "katex": "^0.16.7"
+    "katex": "^0.16.8"
   }
 }
