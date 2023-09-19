@@ -8,6 +8,7 @@ export default defineNuxtConfig({
       title: '生理盐水 @kifuan',
       link: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+SC' },
+        { rel: 'icon', href: 'favicon.png', type: 'image/png' },
       ],
     },
   },
