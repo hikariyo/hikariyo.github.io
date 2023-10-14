@@ -3,7 +3,7 @@
     <img src="/avatar.jpg" alt="Avatar" class="self-center rounded-full w-48">
     <div class="self-center space-x-2 text-slate-900 font-semibold">
       <span class="text-3xl">生理盐水</span>
-      <span class="text-2xl">@kifuan</span>
+      <span class="text-2xl">@hikariyo</span>
     </div>
 
     <p class="self-center text-xl">

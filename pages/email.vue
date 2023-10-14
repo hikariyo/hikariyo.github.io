@@ -17,7 +17,7 @@ const showResult = ref(false)
     <code>
       # Email<br>
       import base64<br>
-      s = 'a2lmdWFuQGZveG1haWwuY29t'<br>
+      s = 'aGlrYXJpeW8xQG91dGxvb2suY29t'<br>
       base64.b64decode(s.encode())
     </code>
   </div>
