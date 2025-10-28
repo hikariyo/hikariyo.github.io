@@ -7,7 +7,7 @@
     </div>
 
     <p class="self-center text-xl">
-      喜欢做点有趣的事情
+      前 OIer / 现 XCPCer
     </p>
 
     <link-button-group />
